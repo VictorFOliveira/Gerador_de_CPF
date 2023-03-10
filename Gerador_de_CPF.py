@@ -11,11 +11,11 @@ def gerador_de_cpf(str):
     resultado_digito_1 = 0
 # Será necessário iterar o cpf, e multiplicar pela contagem regressiva até o número 2
     for digito_1 in nove_digitos:
-        resultado_digito_1 += int(digito_1)*contagem_regressiva_1
+        resultado_digito_1 += int(digito_1) * contagem_regressiva_1
         contagem_regressiva_1 -= 1
 
 # O próximo passo é multiplicar o resultado_digito_1 por 10, e fazer o % por 11
-    primeiro_digito = (resultado_digito_1 *10) % 11
+    primeiro_digito = (resultado_digito_1 * 10) % 11
 # O próximo passo é uma condição
 # Se o primeiro digito for menor ou igual a 9, ele recebe o resultado 
 # Se o primeiro digito for maior do que 9, ele automaticamente recebe 0
