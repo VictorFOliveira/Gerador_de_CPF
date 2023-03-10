@@ -46,4 +46,4 @@ def gerador_de_cpf(str):
     print(f'CPF GERADO: {cpf_gerado}')
 
 
-print(gerador_de_cpf(str))
+gerador_de_cpf(str)
